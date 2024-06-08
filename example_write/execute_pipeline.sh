@@ -1,6 +1,5 @@
 #! /bin/bash -ex
 
-pip install pandas pandasql
 
 python -m pipeline_read --project=$PROJECT_NAME \
     --region=$REGION \
